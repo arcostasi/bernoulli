@@ -1,0 +1,24 @@
+{
+  "name": "bernoulli",
+  "version": "1.0.0",
+  "description": "The simplified form of Bernoulli's equation",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "dev": "tsc & node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcostasi/bernoulli.git"
+  },
+  "author": "Anderson Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arcostasi/bernoulli/issues"
+  },
+  "homepage": "https://github.com/arcostasi/bernoulli#readme",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
